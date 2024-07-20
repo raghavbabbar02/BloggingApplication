@@ -1,0 +1,11 @@
+<nav>
+    <h2 class="logo">Medium</h2>
+    <% if(loggedIn === true) { %>
+        <ul>
+            <a class="account" href="/">My Account</a>
+            <a> Logout </a>
+        </ul>
+        <% } else { %>
+            <a class="account" href="/login">Login</a>
+    <% } %>
+</nav>

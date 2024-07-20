@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    <main>
+        <h2>Login</h2>
+        <div class="form">
+            <input id="email" type="text" placeholder="Email" />
+            <input id="password" type="password" placeholder="Password" />
+            <button id="submit" type="submit">Submit</button>
+            <p>Don't have an account? <a href="http://localhost:3000/register">Create One</a></p>
+        </div>
+    </main>
+    <%- include('partials/footer') %>
+
+    <script src="javascript/login.js"></script>
+</body>
+</html>

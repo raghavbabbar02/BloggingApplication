@@ -1,0 +1,34 @@
+{
+  "name": "medium-blog",
+  "version": "1.0.0",
+  "description": "This is a blog inspired by medium",
+  "main": "server.js",
+  "scripts": {
+    "build": "tailwindcss build -i styles/tailwind.css -o assets/styles.css",
+    "dev": "nodemon -r esm server.js",
+    "start": "node -r esm server.js"
+  },
+  "author": "Raghav Babbar",
+  "license": "ISC",
+  "dependencies": {
+    "@tiptap/core": "^2.0.3",
+    "@tiptap/pm": "^2.0.3",
+    "@tiptap/starter-kit": "^2.0.3",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.7.3",
+    "passport-jwt": "^4.0.1",
+    "tinymce": "^6.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.22"
+  }
+}

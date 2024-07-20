@@ -1,0 +1,33 @@
+## To do list
+
+ - [x] Git initialise
+ - [x] Express server setup
+ - [x] ESLint Config
+ - [x] EJS install and setup
+ - [ ] Setup environment variables
+ - [ ] Joi validations
+ - [ ] Routes
+     - [ ] / => Home
+     - [ ] /login => user login
+     - [ ] /register => user registration
+     - [ ] /:id => Blog with id
+         - [ ] / GET
+         - [ ] /create POST
+         - [ ] /update POST
+         - [ ] /delete DELETE
+     - [ ] /admin => Admin
+ - [ ] Models
+     - [ ] User
+     - [ ] Blog
+     - [ ] Comments
+ - [ ] Services
+     - [ ] PassportJS setup : JWT strategy
+     - [ ] Custom Error Handler Service
+ - [ ] Controllers
+     - [ ] Auth
+        - [ ] Login
+        - [ ] Register
+        - [ ] Token refresh
+     - [ ] Blog
+     - [ ] Comment
+ - [ ] MongoDB setup

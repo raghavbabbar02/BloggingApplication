@@ -1,0 +1,24 @@
+main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-top: 10px;
+}
+
+input, button{
+    margin: 5px 0;
+    font-size: medium;
+    padding: 4px;
+}
+
+input {
+    background-color: white;
+}

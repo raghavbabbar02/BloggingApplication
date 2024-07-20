@@ -1,0 +1,40 @@
+main {
+    padding: 5vh 10vw;
+}
+
+.blogList {
+    margin: 45px 0;
+}
+
+.blogItem {
+    border: 1px solid grey;
+    margin: 30px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.blogTitle {
+    margin-bottom: 10px;
+}
+
+.blogContent {
+    margin-bottom: 10px;
+}
+
+.blogLink {
+    padding: 0px 10px;
+    margin: 15px 0;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.blogLink:hover {
+    background-color: white;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
